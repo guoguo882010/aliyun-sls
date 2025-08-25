@@ -1,0 +1,21 @@
+{
+  "name": "guoguo882010/aliyun-sls",
+  "description": "阿里云 sls 日志存储",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "47088845",
+      "email": "47088845@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RSHDSDK\\ALiYunSLS\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1.7",
+    "alibabacloud/aliyun-log-php-sdk": "^0.6.8"
+  }
+}
