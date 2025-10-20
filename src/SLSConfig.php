@@ -81,7 +81,7 @@ class SLSConfig
      */
     public function getClose()
     {
-        if ($this->config['close'] === false || $this->config['close'] == 'false') {
+        if ($this->config['close'] === false) {
             return false;
         }
         return true;
